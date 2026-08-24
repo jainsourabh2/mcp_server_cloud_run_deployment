@@ -1,0 +1,18 @@
+[project]
+name = "resy-mcp-server"
+version = "1.0.0"
+description = "Model Context Protocol (MCP) Server for Resy Reservations on Google Cloud Run"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=2.0.0",
+    "httpx>=0.27.2",
+    "mcp>=1.3.0",
+    "pydantic>=2.9.2",
+    "starlette>=0.41.0",
+    "uvicorn>=0.32.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
