@@ -10,6 +10,8 @@ This repository contains production blueprints, comprehensive guides, and sample
 .
 ├── building-resy-mcp-server-cloud-run.md  # Comprehensive guide: Building & Deploying Resy MCP on Cloud Run
 ├── securing-google-cloud-environment.md   # Practical guide: Org Policies, Alerts, Spend Caps & SCC
+├── implementation_plan.md                 # Architecture, design & implementation specification
+├── walkthrough.md                         # Deliverables, verification summary & execution trace
 ├── publish_to_medium.py                   # Automation script to publish guides directly to Medium
 └── samples/
     └── resy-mcp-server/                   # Production-ready Python Resy MCP Server
