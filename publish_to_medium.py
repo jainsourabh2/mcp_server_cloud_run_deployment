@@ -36,13 +36,22 @@ def publish_story(token, publish_status="draft", file_path=None):
             title = line.replace("# ", "").strip()
             break
 
+    # Determine appropriate tags
+    tags = ["GoogleCloud", "Python", "ArtificialIntelligence", "MachineLearning", "DeepLearning"]
+    if "mcp" in file_path.lower():
+        tags = ["GoogleCloud", "Python", "ArtificialIntelligence", "CloudRun", "MCP"]
+    elif "slm" in file_path.lower():
+        tags = ["ArtificialIntelligence", "MachineLearning", "GoogleCloud", "Python", "DeepLearning"]
+    elif "securing" in file_path.lower():
+        tags = ["GoogleCloud", "CyberSecurity", "CloudSecurity", "DevOps", "Governance"]
+
     # Step 3: Create Post Payload
     post_data = {
         "title": title,
         "contentFormat": "markdown",
         "content": content,
         "publishStatus": publish_status,  # "draft" or "public"
-        "tags": ["GoogleCloud", "Python", "ArtificialIntelligence", "CloudRun", "MCP"]
+        "tags": tags
     }
 
     post_url = f"https://api.medium.com/v1/users/{user_id}/posts"

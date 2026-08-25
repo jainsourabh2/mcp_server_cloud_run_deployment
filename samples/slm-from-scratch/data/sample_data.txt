@@ -1,0 +1,34 @@
+# Sample Knowledge Base for TechGadget Support Assistant
+
+Q: What is TechGadget X1?
+A: TechGadget X1 is a smart home hub designed to control your lighting, temperature, and home security with voice and app commands.
+
+Q: How do I reset my TechGadget X1?
+A: To reset your TechGadget X1, press and hold the power button on the back for 10 seconds until the LED light flashes blue.
+
+Q: Does TechGadget X1 work without internet?
+A: Yes, basic local controls for connected devices work offline, but remote access and voice features require an active Wi-Fi connection.
+
+Q: What is the battery life of TechGadget Pulse?
+A: TechGadget Pulse has an ultra-long battery life of up to 14 days on a single charge with standard usage.
+
+Q: How do I pair TechGadget Pulse with my smartphone?
+A: Turn on Bluetooth on your smartphone, open the TechGadget app, tap Add Device, and select Pulse from the discovered devices list.
+
+Q: Is TechGadget Pulse waterproof?
+A: TechGadget Pulse is water-resistant with an IP68 rating, meaning it can withstand immersion in water up to 1.5 meters for 30 minutes.
+
+Q: What is the warranty policy for all TechGadget devices?
+A: All TechGadget hardware products come with a 1-year limited manufacturer warranty covering hardware defects from the date of purchase.
+
+Q: How do I update the firmware on my device?
+A: Open the TechGadget companion app, navigate to Device Settings > System > Software Update, and tap Check for Updates.
+
+Q: Can I share device access with my family members?
+A: Yes, in the TechGadget app, go to Settings > Home Members, tap Invite Member, and enter their email address to grant shared access.
+
+Q: What power adapter does TechGadget X1 require?
+A: TechGadget X1 includes a 12V 2A DC power adapter. Always use the official adapter to prevent electrical damage.
+
+Q: How do I contact TechGadget customer support?
+A: You can reach customer support via email at support@techgadget.example.com or call our toll-free hotline at 1-800-GADGETS.
